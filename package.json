@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chromedriver": "^2.33.2",
+    "nightwatch": "^0.9.16",
+    "selenium-server-standalone-jar": "^3.6.0"
+  },
+  "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC"
+}

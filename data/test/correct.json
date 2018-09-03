@@ -1,0 +1,11 @@
+{
+    "options": {
+        "method": "GET",
+        "hostname": "localhost",
+        "path": "/api",
+        "headers": {
+            "foo": "bar"
+        }
+    },
+    "testvalue": "success"
+}
