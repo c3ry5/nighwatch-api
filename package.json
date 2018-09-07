@@ -1,22 +1,21 @@
 {
   "name": "nightwatch-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "nightwatch.conf.js",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "chromedriver": "^2.33.2",
-    "nightwatch": "^0.9.16",
-    "selenium-server-standalone-jar": "^3.6.0"
-  },
-  "devDependencies": {
-    "phantomjs-prebuilt": "^2.1.16"
-  },
+  "description": "An extension of nightwatch JS to allow API requests",
+  "main": "nightwatch-api.js",
   "scripts": {
-    "test": "nightwatch"
+    "build": "node nightwatch-api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwill5587/nighwatch-api.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwill5587/nighwatch-api/issues"
+  },
+    "homepage": "https://github.com/cwill5587/nighwatch-api#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
