@@ -1,6 +1,6 @@
 "use strict";
 module.exports = {
-    "Decryption service returns decrypted string which was passed in encrypted!": function(browser) {
+    "Example API request": function(browser) {
         var api = require('api.js');
         var data = {
             "options": {
@@ -13,10 +13,10 @@ module.exports = {
             }
         };
         api.perform(browser, 'https', data, function(assert, body, done) {
-            if (body.toString() !== "02-83-14") {
-                assert.isValidResponse(false, "Is Value 02-83-14");
+            if (body.toString() !== "test") {
+                assert.isValidResponse(false, "Is Value test");
             } else {
-                assert.isValidResponse(true, "Is Value ");
+                assert.isValidResponse(true, "Is Value test");
             }
             done();
         }).end();
