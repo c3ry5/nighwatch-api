@@ -5,12 +5,10 @@ module.exports = {
         var data = {
             "options": {
                 "method": "GET",
-                "hostname": "forms-public-dev3.stcdev.com",
-                "path": "/application/decrypt",
+                "hostname": "localhost:8000",
+                "path": "/sample",
                 "headers": {
-                    "value": "cFK4UhfsW3nw5qj5QKxbjIUc9uCOy2J5GplDC7f4d/u6A7I4mMGHBz11j58=",
-                    "team-token": "M6/uYg3CDtgcPWAK/3Ukc2NDgUdzV604kFdjsvuN4QXtKoZsDVUK/xcmAGaolwWneIUh6peqcEbOWtc4xQ==",
-                    "team-member-token": "kXayXUpnbuK0Mpg2/XPv4UkrkSlKj4GfPkHhnoDYC9gYvnvpNDKB/knzFppIKroR4E/2yaEPZsae1bKXyJ3fnt+3Cm3cKQ=="
+                    "foo": "bar"
                 }
             }
         };
