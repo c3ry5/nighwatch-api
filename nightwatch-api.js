@@ -20,7 +20,8 @@ var api = {
         });
         req.end();
     },
-    perform: function(browser, protocol, data, callback) {        
+    perform: function(browser, protocol, data, callback) {  
+        var _this = this;      
         return browser.perform(function(client, done) {
             _this.request(client.assert, protocol, data, callback, done);            
         });
