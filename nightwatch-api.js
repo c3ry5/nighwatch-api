@@ -20,13 +20,9 @@ var api = {
         });
         req.end();
     },
-    perform: function(browser, protocol, data, callback) {
-        var _this = this;
-        
+    perform: function(browser, protocol, data, callback) {        
         return browser.perform(function(client, done) {
-            assert = client.assert;
-            _this.request(assert, protocol, data, callback, done);
-            
+            _this.request(client.assert, protocol, data, callback, done);            
         });
     }
 };
