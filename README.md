@@ -1,1 +1,7 @@
-##Read Me
+# Nightwatch API
+
+## Usage
+
+### Assertions
+
+### Example
