@@ -1,10 +1,10 @@
-exports.assertion = function(key, val, obj, msg) {
+exports.assertion = function(val, exp, msg) {
 
-    this.message  = msg || 'is in object';
-    this.expected = val;
+    this.message  = msg || 'value is ' + exp;
+    this.expected = exp;
 
     this.pass = function(value) {
-        return obj[key] === this.expected;
+        return val === this.expected;
     };
 
     this.value = function(result) {
