@@ -1,7 +1,7 @@
 "use strict";
 module.exports = {
     "Example API request": function(browser) {
-        var api = require('api.js');
+        var api = require('../../api.js');
         var data = {
             "options": {
                 "method": "GET",
